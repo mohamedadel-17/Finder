@@ -1074,6 +1074,7 @@ footer .middle_top{
     padding: 10px 20px;
     height: auto;
     align-items: flex-start;
+    position: static;
   }
   .nav_links {
     margin: 20px 0 0 0;
@@ -1198,6 +1199,7 @@ footer .middle_top{
     padding: 10px 20px;
     height: auto;
     align-items: flex-start;
+    position: static;
   }
   .nav_links {
     margin: 20px 0 0 0;
