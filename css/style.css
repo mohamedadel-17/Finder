@@ -70,13 +70,11 @@ a{
         gap: 20px;
         max-width: 300px;
     }
-
     .color-item {
         display: flex;
         align-items: center;
         gap: 10px;
     }
-
     .color-code {
         background: #f5f5f5;
         padding: 5px 10px;
@@ -87,7 +85,6 @@ a{
         width: 90px;
         cursor: default;
     }
-
     .color-circle {
         width: 35px;
         height: 35px;
@@ -95,7 +92,6 @@ a{
         border: 1px solid #ddd;
         cursor: pointer;
     }
-
     input[type="color"] {
         display: none;
     }
@@ -136,25 +132,20 @@ a{
     }
 /************** end new feature **************/
 /************** dark mode **************/
-    /* Dark Mode Styles */
     body.dark_mode {
     background: var(--dm-bg);
     color: var(--dm-text);
     }
-
     body.dark_mode nav {
     background: var(--dm-card);
     box-shadow: 0 2px 10px rgba(0,0,0,0.3);
     }
-
     body.dark_mode .nav_links li:hover {
     background: var(--dm-border);
     }
-
     body.dark_mode .buttons .icon {
     color: var(--dm-text);
     }
-
     body.dark_mode .left_banner,
     body.dark_mode .expert_advice,
     body.dark_mode .get_app .container,
@@ -163,11 +154,9 @@ a{
     background: var(--dm-card);
     border-color: var(--dm-border);
     }
-
     body.dark_mode footer {
     background: var(--dm-card);
     }
-
     body.dark_mode .top a,
     body.dark_mode .service .service_card a,
     body.dark_mode .popular_projects .project_card a,
@@ -175,34 +164,27 @@ a{
     body.dark_mode .common-pricing-references h3 {
     color: var(--dm-text);
     }
-
     body.dark_mode .copyright a,
     body.dark_mode .list1 li a, 
     body.dark_mode .list2 li a, 
     body.dark_mode .company li a {
     color: var(--dm-gray);
     }
-
     body.dark_mode .middle_bottom li {
     border-color: var(--dm-gray);
     color: var(--dm-text);
     }
-
     body.dark_mode .middle_bottom li:hover {
     border-color: var(--dm-text);
     }
-
     body.dark_mode .floating_btn {
     background: var(--dm-card);
     color: var(--dm-text);
     }
-
     body.dark_mode .sidebar {
     background: var(--dm-card);
     box-shadow: -2px 0 8px rgba(0,0,0,0.4);
     }
-
-    /* تعديلات إضافية للتباين */
     body.dark_mode .service_item {
     border-color: var(--dm-text);
     }
@@ -215,7 +197,6 @@ a{
     color: var(--dm-gray);
     }
 /************** dark mode **************/
-
 /* start navigation bar */
 nav{
     position: fixed;
