@@ -12,8 +12,71 @@
     <title>Finder | Contractors - Homepage</title>
 </head>
 <body>
+    <!--** start new feature **-->
+    <!-- floating button -->
+    <div class="floating_btn" id="open_btn">
+        <i class="fa-solid fa-gear"></i>
+        <span>CUSTOMIZE</span>
+    </div>
+    <!-- background -->
+    <div class="overlay" id="overlay"></div>
+    <!-- sidebar-->
+    <div class="sidebar" id="sidebar">
+        <span class="close_btn" id="close_btn">&times;</span>
+        <h2>Customize theme</h2>
+        <div class="color-grid">
+            <div>
+                <p>Primary</p>
+                <div class="color-item">
+                    <span class="color-code">#111827</span>
+                    <div class="color-circle" style="background: var(--gunmetal);" data-var="--gunmetal"></div>
+                    <input type="color" value="#111827">
+                </div>
+            </div>
+
+            <div>
+                <p>Success</p>
+                <div class="color-item">
+                    <span class="color-code">#fff</span>
+                    <div class="color-circle" style="background: var(--white);" data-var="--white"></div>
+                    <input type="color" value="#fff">
+                </div>
+            </div>
+
+            <div>
+                <p>Warning</p>
+                <div class="color-item">
+                    <span class="color-code">#d55050</span>
+                    <div class="color-circle" style="background: var(--red-light);" data-var="--red-light"></div>
+                    <input type="color" value="#d55050">
+                </div>
+            </div>
+
+            <div>
+                <p>Danger</p>
+                <div class="color-item">
+                    <span class="color-code">#4e5562</span>
+                    <div class="color-circle" style="background: var(--gray);" data-var="--gray"></div>
+                    <input type="color" value="#4e5562">
+                </div>
+            </div>
+
+            <div>
+                <p>Info</p>
+                <div class="color-item">
+                    <span class="color-code">#cad0d9</span>
+                    <div class="color-circle" style="background: var(--ice-gray);" data-var="--ice-gray"></div>
+                    <input type="color" value="#cad0d9">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--** end new features **-->
     <!-- start navigation bar -->
     <nav>
+        <!-- menu icon -->
+        <div class="menu_icon" id="menu_icon">☰</div>
         <!-- logo -->
         <div class="logo">
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -630,5 +693,6 @@
             </ul>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
