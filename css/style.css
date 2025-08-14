@@ -25,9 +25,6 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-body{
-    width: 100vh;
-}
 ul{
     list-style: none;
 }
