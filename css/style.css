@@ -42,7 +42,7 @@ a{
         height: 112.75px;
         position: fixed;
         top: 50%;
-        right: 10px;
+        right: 20px;
         border-radius: 50px;
         padding: 6px 16px;
         gap:6px;
@@ -53,6 +53,7 @@ a{
         writing-mode: vertical-rl;
         cursor: pointer;
         transition: all 0.5s ease;
+        z-index: 99;
     }
     .floating_btn:hover {
         background: var(--soft-gray);
